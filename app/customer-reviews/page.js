@@ -19,7 +19,7 @@ export async function generateMetadata(props, parent) {
     const slug = params.slug
 
     // fetch data
-    const data = await getSinglePostData( 'k-cleaning-solution', '/wp-json/wp/v2/cleaning-business')
+    const data = await getSinglePostData( 'unite-cleaning-services', '/wp-json/wp/v2/cleaning-business')
 
     // optionally access and extend (rather than replace) parent metadata
     const previousImages = (await parent).openGraph?.images || []
@@ -53,7 +53,7 @@ export async function generateMetadata(props, parent) {
 }
 
   export default async function PrimeCleanExperts() {
-    const data = await getSinglePostData( 'k-cleaning-solution', '/wp-json/wp/v2/cleaning-business')
+    const data = await getSinglePostData( 'unite-cleaning-services', '/wp-json/wp/v2/cleaning-business')
     const googleReviews = await getGoogleReviews()
     if(!data) return {notFound: true}
     const sections = data[0]?.acf?.layout

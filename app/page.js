@@ -3,7 +3,6 @@
 // import TechLogos from '@/components/UI/TechLogos/TechLogos'
 // import USP from '@/components/UI/USP/USP'
 import Header from '@/components/UI/Header/Header'
-import GetQuotePage from '@/components/Pages/GetQuotePage/GetQuotePage'
 import {getSinglePostData, getGoogleReviews} from '@/utils/fetchData'
 import Footer from '@/components/UI/Footer/Footer'
 import Layout from '@/components/UI/Layout/Layout'
@@ -53,7 +52,6 @@ export async function generateMetadata(props, parent) {
   export default async function PrimeCleanExperts() {
     const data = await getSinglePostData( 'unite-cleaning-services', '/wp-json/wp/v2/cleaning-business')
     const googleReviews = await getGoogleReviews()
-    console.log(googleReviews)
     if(!data) return {notFound: true}
     const sections = data[0]?.acf?.layout
     return (
