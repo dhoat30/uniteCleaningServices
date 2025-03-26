@@ -47,7 +47,7 @@
  --light-surface-dim: rgb(185 184 191);
  --light-surface-bright: rgb(250 248 255);
  --light-surface-container-lowest: rgb(255 255 255);
- --light-surface-container-low: rgb(241 240 247);
+ --light-surface-container-low: rgb(248, 248, 250);
  --light-surface-container: rgb(227 226 233);
  --light-surface-container-high: rgb(213 211 219);
  --light-surface-container-highest: rgb(199 198 205);

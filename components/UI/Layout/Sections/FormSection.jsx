@@ -37,7 +37,7 @@ export default function FormSection({ title, description, usp, graphic }) {
               {description} 
             </Typography>
             <Typography component="div" variant="body1" className="mt-8">
-            If you are looking for a <strong style={{fontWeight: "600"}}>Job</strong>, please click here <Link target="_blank" href="https://unitecleaningservices.com.au/contact-us/" style={{fontWeight: "600", textDecoration: "underline"}}>Job Form</Link>
+            If you are looking for a <strong style={{fontWeight: "600"}}>Job</strong>, please click here <Link target="_blank" href="https://webduel.co.nz/contact" style={{fontWeight: "600", textDecoration: "underline"}}>Job Form</Link>
             </Typography>
             <HeroUSP data={usp} className="mb-16"/> 
               {graphicComponent}
@@ -53,7 +53,7 @@ export default function FormSection({ title, description, usp, graphic }) {
 }
 
 const Section = styled.section`
-
+background-color: var(--light-surface-container-low); 
 padding-top: 120px; 
 @media(max-width: 600px){ 
   padding-top: 80px; 

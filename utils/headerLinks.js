@@ -9,12 +9,7 @@ export const headerLinks = [
      
    
   
-    {
-        id: 1,
-        label: "Reviews",
-        url: "/customer-reviews",
-       
-        },
+   
     
 
         {

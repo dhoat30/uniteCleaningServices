@@ -1,16 +1,16 @@
 export const contactInfo = { 
     info:[ 
         {
-            url: "tel:0424623412", 
-            label: "0424623412",
+            url: "tel:021 0224 3254", 
+            label: "021 0224 3254",
             icon: { 
                 url: "/phone.png", 
                 alt: "phone icon" 
             },
         },
         {
-            url: "mailto:info@unitecleaningservices.com.au", 
-            label: "info@unitecleaningservices.com.au", 
+            url: "mailto:sparkleprotga@gmail.com", 
+            label: "sparkleprotga@gmail.com", 
             icon: { 
                 url: "/email.png", 
                 alt: "Email icon" 

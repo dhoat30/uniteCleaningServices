@@ -1,5 +1,5 @@
 {
-  "name": "treeScene2024",
+  "name": "webduel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -31,7 +31,8 @@
     "react-slick": "^0.30.3",
     "sharp": "^0.32.6",
     "slick-carousel": "^1.8.1",
-    "treeScene2024": "file:"
+    "treeScene2024": "file:",
+    "webduel": "file:"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "15.1.2",

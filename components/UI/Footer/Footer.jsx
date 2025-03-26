@@ -19,7 +19,7 @@ export default function Footer({
   footerCtaData,
   showFooterCta = true,
   certifications,
-
+className, 
   socialData,
 }) {
  
@@ -35,7 +35,7 @@ export default function Footer({
       )}
 
 
-<FooterSection>
+<FooterSection className={className}>
 <ContainerStyled maxWidth="xl" className="row" id="footer">
   {/* logo wrapper */}
   <div className="footer-wrapper">

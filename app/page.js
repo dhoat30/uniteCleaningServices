@@ -16,7 +16,7 @@ export async function generateMetadata(props, parent) {
     const slug = params.slug
 
     // fetch data
-    const data = await getSinglePostData( 'unite-cleaning-services', '/wp-json/wp/v2/cleaning-business')
+    const data = await getSinglePostData( 'sparklepro', '/wp-json/wp/v2/cleaning-business')
 
     // optionally access and extend (rather than replace) parent metadata
     const previousImages = (await parent).openGraph?.images || []
@@ -50,8 +50,8 @@ export async function generateMetadata(props, parent) {
 }
 
   export default async function PrimeCleanExperts() {
-    const data = await getSinglePostData( 'unite-cleaning-services', '/wp-json/wp/v2/cleaning-business')
-    const googleReviews = await getGoogleReviews()
+    const data = await getSinglePostData( 'sparklepro', '/wp-json/wp/v2/cleaning-business')
+    // const googleReviews = await getGoogleReviews()
     if(!data) return {notFound: true}
     const sections = data[0]?.acf?.layout
     return (
@@ -62,10 +62,10 @@ export async function generateMetadata(props, parent) {
             <Layout sections={sections} />
                 {/* <Layout sections={postData[0]?.acf?.sections} /> */}
                 {/* <USP showTitle={true} statsArray={options.stats.items} cards={options.usp.items} title={options.usp.section_title} description={options.usp.section_description} /> */}
-                <GoogleReviewsCarousel data={googleReviews} className="mt-24"/> 
+                {/* <GoogleReviewsCarousel data={googleReviews} className="mt-24"/>  */}
 
             </main>
-            <Footer showFooterCta={false} />
+            <Footer showFooterCta={false}  className="mt-24"/>
         </>
     )
 }

@@ -142,8 +142,8 @@ export default function MobileNavbar() {
                 <Link href="/" className="logo-wrapper">
                   <Image
                     src="/logo.png"
-                    width={64*1.5 }
-                    height={33*1.5}
+                    width={60 }
+                    height={60}
                     alt=" Logo"
                     quality={100}
                   />

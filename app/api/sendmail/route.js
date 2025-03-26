@@ -18,7 +18,7 @@ export async function POST(req, res) {
   // Prepare the form data as URL encoded
   const formData = new URLSearchParams();
   formData.append('from', email);
-  formData.append('to', 'unitecleaningservices@gmail.com');
+  formData.append('to', 'sparkleprotga@gmail.com');
   formData.append('subject', formName);
   formData.append('text', `${message}`);
 

@@ -7,17 +7,6 @@ export const informationLinks =  [
         url: "/",
        
         },
- 
-     
-   
-  
-    {
-        id: 1,
-        label: "Reviews",
-        url: "/customer-reviews",
-       
-        },
-    
 
         {
             id: 1,

@@ -128,8 +128,8 @@ function DesktopNavbar() {
             <Link href="/">
               <Image
                 src="/logo.png"
-                width={64*1.5 }
-                height={33*1.5}
+                width={70 }
+                height={70}
                 alt="Logo"
                 style={{ cursor: "pointer" }}
               />

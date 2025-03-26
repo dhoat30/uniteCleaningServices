@@ -56,7 +56,8 @@ const Section = styled.section`
   align-items: center;
 
   .container {
-    background: var(--light-surface-container);
+    background: var(--light-surface-container-lowest);
+    border: 1px solid var(--dark-outline-variant);
     padding: 24px;
     border-radius: 12px;
     .image-container {
